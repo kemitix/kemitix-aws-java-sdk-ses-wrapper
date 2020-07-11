@@ -13,7 +13,7 @@
 
     <groupId>net.kemitix.aws</groupId>
     <artifactId>kemitix-aws-java-sdk-ses-wrapper</artifactId>
-    <version>1.11.816</version><!-- must match ${aws-java-sdk-s2.version} -->
+    <version>1.11.820</version><!-- must match ${aws-java-sdk-s2.version} -->
 
     <description>
         Wrapper for the AWS Java SDK for SES - only releases when there
@@ -21,10 +21,11 @@
     </description>
 
     <properties>
-        <aws-java-sdk-ses.version>1.11.816</aws-java-sdk-ses.version>
+        <aws-java-sdk-ses.version>${project.version}</aws-java-sdk-ses.version>
         <jackson-databind.version>2.11.1</jackson-databind.version>
         <jackson-dataformat-cbor.version>2.11.1</jackson-dataformat-cbor.version>
         <commons-logging.version>1.2</commons-logging.version>
+        <commons-codec.version>1.14</commons-codec.version>
 
         <maven-graph-plugin.version>1.45</maven-graph-plugin.version>
 
@@ -50,6 +51,10 @@
                     <artifactId>commons-logging</artifactId>
                     <groupId>commons-logging</groupId>
                 </exclusion>
+                <exclusion>
+                    <groupId>commons-codec</groupId>
+                    <artifactId>commons-codec</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -66,6 +71,11 @@
             <artifactId>commons-logging</artifactId>
             <groupId>commons-logging</groupId>
             <version>${commons-logging.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${commons-codec.version}</version>
         </dependency>
     </dependencies>
 
@@ -97,7 +107,7 @@
                 <configuration>
                     <direction>LR</direction>
                     <hideTransitive>true</hideTransitive>
-                    <hideVersion>true</hideVersion>
+                    <hideVersion>false</hideVersion>
                     <hideOptional>true</hideOptional>
                     <hideScopes>test,provided</hideScopes>
                     <target>${project.basedir}/docs/images/reactor-graph.png</target>
