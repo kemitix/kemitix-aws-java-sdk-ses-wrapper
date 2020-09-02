@@ -25,7 +25,7 @@
         <jackson-databind.version>2.11.1</jackson-databind.version>
         <jackson-dataformat-cbor.version>2.11.2</jackson-dataformat-cbor.version>
         <commons-logging.version>1.2</commons-logging.version>
-        <commons-codec.version>1.14</commons-codec.version>
+        <commons-codec.version>1.15</commons-codec.version>
 
         <maven-graph-plugin.version>1.45</maven-graph-plugin.version>
 
