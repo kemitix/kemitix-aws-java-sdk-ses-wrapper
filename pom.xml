@@ -23,7 +23,7 @@
     <properties>
         <aws-java-sdk-ses.version>1.11.874</aws-java-sdk-ses.version>
         <jackson-databind.version>2.11.2</jackson-databind.version>
-        <jackson-dataformat-cbor.version>2.11.2</jackson-dataformat-cbor.version>
+        <jackson-dataformat-cbor.version>2.11.3</jackson-dataformat-cbor.version>
         <commons-logging.version>1.2</commons-logging.version>
         <commons-codec.version>1.15</commons-codec.version>
 
