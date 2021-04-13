@@ -13,7 +13,7 @@
 
     <groupId>net.kemitix.aws</groupId>
     <artifactId>kemitix-aws-java-sdk-ses-wrapper</artifactId>
-    <version>1.11.975</version><!-- must match ${aws-java-sdk-ses.version} to release -->
+    <version>1.11.997</version><!-- must match ${aws-java-sdk-ses.version} to release -->
 
     <description>
         Wrapper for the AWS Java SDK for SES - only releases when there
@@ -21,9 +21,8 @@
     </description>
 
     <properties>
-        <aws-java-sdk-ses.version>1.11.975</aws-java-sdk-ses.version>
-        <jackson-dataformat-cbor.version>2.12.3</jackson-dataformat-cbor.version>
-        <jackson-databind.version>2.12.3</jackson-databind.version>
+        <aws-java-sdk-ses.version>1.11.997</aws-java-sdk-ses.version>
+        <jackson.version>2.12.3</jackson.version>
         <commons-logging.version>1.2</commons-logging.version>
         <commons-codec.version>1.15</commons-codec.version>
 
@@ -65,12 +64,12 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>${jackson-databind.version}</version>
+            <version>${jackson.version}</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-cbor</artifactId>
-            <version>${jackson-dataformat-cbor.version}</version>
+            <version>${jackson.version}</version>
         </dependency>
         <dependency>
             <artifactId>commons-logging</artifactId>
