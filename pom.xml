@@ -13,7 +13,7 @@
 
     <groupId>net.kemitix.aws</groupId>
     <artifactId>kemitix-aws-java-sdk-ses-wrapper</artifactId>
-    <version>1.11.997</version><!-- must match ${aws-java-sdk-ses.version} to release -->
+    <version>1.12.7</version><!-- must match ${aws-java-sdk-ses.version} to release -->
 
     <description>
         Wrapper for the AWS Java SDK for SES - only releases when there
