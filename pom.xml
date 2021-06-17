@@ -21,7 +21,7 @@
     </description>
 
     <properties>
-        <aws-java-sdk-ses.version>1.12.7</aws-java-sdk-ses.version>
+        <aws-java-sdk-ses.version>1.12.8</aws-java-sdk-ses.version>
         <jackson.version>2.12.3</jackson.version>
         <commons-logging.version>1.2</commons-logging.version>
         <commons-codec.version>1.15</commons-codec.version>
