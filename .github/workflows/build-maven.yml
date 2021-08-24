@@ -20,5 +20,6 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: ${{ matrix.java }}
+          cache: maven
       - name: build-jar
         run: mvn -B install
