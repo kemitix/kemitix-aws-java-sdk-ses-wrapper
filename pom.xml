@@ -28,7 +28,7 @@
 
         <maven-graph-plugin.version>1.45</maven-graph-plugin.version>
 
-        <tiles-maven-plugin.version>2.22</tiles-maven-plugin.version>
+        <tiles-maven-plugin.version>2.24</tiles-maven-plugin.version>
         <kemitix-tiles.version>3.0.2</kemitix-tiles.version>
         <httpclient.version>4.5.13</httpclient.version>
     </properties>
